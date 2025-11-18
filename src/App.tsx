@@ -1,15 +1,14 @@
-import './App.css'
-// src/App.tsx
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+
 function App() {
   return (
-    <div className="app-shell">
-      <div className="app-card">
-        {/* LLM will replace this content for each app */}
-        <h1>App Starter</h1>
-      </div>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </Router>
   );
 }
-
 
 export default App

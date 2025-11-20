@@ -6,37 +6,37 @@
         "type": "Login Page",
         "layout": "centered_card",
         "description": "Standard entry point with credential inputs and social auth options.",
-        "components": ["Card", "Input", "Button", "Label", "Separator", "Icons (Google/GitHub)"]
+        "components": ["Card", "Input", "Button", "Label", "Separator"]
       },
       {
         "type": "Sign Up Page",
         "layout": "split_screen",
         "description": "Registration form often paired with a marketing image or testimonial on the side.",
-        "components": ["Card", "Input", "Button", "Checkbox", "Toaster (for errors)", "AspectRatio (Image)"]
+        "components": ["Card", "Input", "Button", "Checkbox", "Toast", "AspectRatio"]
       },
       {
         "type": "Forgot Password",
         "layout": "centered_card",
         "description": "Simple form to request a password reset link via email.",
-        "components": ["Card", "Input", "Button", "Alert (Success message)"]
+        "components": ["Card", "Input", "Button", "Alert"]
       },
       {
         "type": "Reset Password",
         "layout": "centered_card",
         "description": "Form to enter new password with validation requirements.",
-        "components": ["Card", "Input", "Button", "Progress (Password Strength)"]
+        "components": ["Card", "Input", "Button", "Progress"]
       },
       {
         "type": "2FA Verification",
         "layout": "centered_card",
         "description": "Input for 6-digit OTP code sent to mobile or email.",
-        "components": ["Card", "InputOTP", "Button", "Timer (Resend countdown)"]
+        "components": ["Card", "InputOTP", "Button"]
       },
       {
         "type": "Email Verification Success",
         "layout": "centered_illustration",
         "description": "Static feedback page confirming email is verified.",
-        "components": ["Card", "Button (Go to Dashboard)", "Icon (CheckCircle)"]
+        "components": ["Card", "Button"]
       }
     ]
   },
@@ -47,7 +47,7 @@
         "type": "Dashboard Overview",
         "layout": "dashboard_shell",
         "description": "High-level metrics, charts, and recent activity feed.",
-        "components": ["Sidebar", "Header", "Card", "LineChart", "BarChart", "Table (Recent Activity)"]
+        "components": ["Sidebar", "Card", "Chart", "Table"]
       },
       {
         "type": "User Settings (Profile)",
@@ -59,43 +59,43 @@
         "type": "Billing & Subscription",
         "layout": "sidebar_settings",
         "description": "Plan selection, credit card update, and invoice history.",
-        "components": ["Card (Plan Details)", "Badge (Status)", "Table (Invoices)", "Button (Upgrade)", "Dialog (Cancel Plan)"]
+        "components": ["Card", "Badge", "Table", "Button", "Dialog"]
       },
       {
         "type": "Team Members",
         "layout": "dashboard_shell",
         "description": "List of users with roles, invite functionality, and permissions.",
-        "components": ["Table", "Avatar", "Badge (Role)", "DropdownMenu (Actions)", "Dialog (Invite User)", "Select (Role)"]
+        "components": ["Table", "Avatar", "Badge", "DropdownMenu", "Dialog", "Select"]
       },
       {
         "type": "Notifications Center",
         "layout": "single_column_feed",
         "description": "List of alerts and updates for the user.",
-        "components": ["ScrollArea", "Card (Notification Item)", "Switch (Preferences)", "Button (Mark all read)"]
+        "components": ["ScrollArea", "Card", "Switch", "Button"]
       },
       {
         "type": "Kanban Board",
         "layout": "full_width_canvas",
         "description": "Project management view with drag-and-drop columns.",
-        "components": ["ScrollArea (Horizontal)", "Card (Task)", "Badge (Tags)", "Avatar", "Button (Add Task)"]
+        "components": ["ScrollArea", "Card", "Badge", "Avatar", "Button"]
       },
       {
         "type": "Calendar View",
         "layout": "full_width_calendar",
         "description": "Monthly or weekly schedule view with events.",
-        "components": ["Calendar", "Popover (Event Detail)", "Button (Add Event)", "Select (View Type)"]
+        "components": ["Calendar", "Popover", "Button", "Select"]
       },
       {
         "type": "File Manager",
         "layout": "grid_gallery",
         "description": "Grid of files/folders with upload capability.",
-        "components": ["AspectRatio (Thumbnail)", "ContextMenu", "Button (Upload)", "Breadcrumb", "Progress (Upload Status)"]
+        "components": ["AspectRatio", "ContextMenu", "Button", "Breadcrumb", "Progress"]
       },
       {
         "type": "Analytics Report",
         "layout": "dashboard_shell",
         "description": "Deep dive into data with date range pickers and complex charts.",
-        "components": ["DateRangePicker", "AreaChart", "PieChart", "Tabs (Metrics)", "Card", "Button (Export)"]
+        "components": ["Calendar", "Popover", "Chart", "Tabs", "Card", "Button"]
       }
     ]
   },
@@ -106,37 +106,37 @@
         "type": "Storefront Home",
         "layout": "marketing_hero_grid",
         "description": "Hero banner followed by featured product collections.",
-        "components": ["Carousel (Hero)", "Card (Product)", "Button", "Badge (Sale)"]
+        "components": ["Carousel", "Card", "Button", "Badge"]
       },
       {
         "type": "Product Listing (PLP)",
         "layout": "sidebar_filters",
         "description": "Grid of products with sidebar for filtering by price, size, color.",
-        "components": ["Slider (Price)", "Checkbox (Filters)", "Card (Product)", "Pagination", "Select (Sort)"]
+        "components": ["Slider", "Checkbox", "Card", "Pagination", "Select"]
       },
       {
         "type": "Product Detail (PDP)",
         "layout": "split_product_view",
         "description": "Large image gallery, description, and add-to-cart controls.",
-        "components": ["Carousel (Images)", "Button (Add to Cart)", "Input (Quantity)", "Accordion (Specs)", "RadioGroup (Variants)"]
+        "components": ["Carousel", "Button", "Input", "Accordion", "RadioGroup"]
       },
       {
         "type": "Shopping Cart",
         "layout": "two_column_summary",
         "description": "List of selected items with a price summary sidebar.",
-        "components": ["Table (Cart Items)", "Input (Coupon)", "Button (Checkout)", "Separator", "Card (Order Summary)"]
+        "components": ["Table", "Input", "Button", "Separator", "Card"]
       },
       {
         "type": "Checkout",
         "layout": "focused_step_form",
         "description": "Distraction-free flow for shipping and payment details.",
-        "components": ["Form", "Input", "RadioGroup (Payment Method)", "Button (Pay)", "Accordion (Order Summary)"]
+        "components": ["Form", "Input", "RadioGroup", "Button", "Accordion"]
       },
       {
         "type": "Order History",
         "layout": "dashboard_shell",
         "description": "List of past orders with status and re-order options.",
-        "components": ["Table", "Badge (Status)", "Button (Track Order)", "Sheet (Order Details)"]
+        "components": ["Table", "Badge", "Button", "Sheet"]
       }
     ]
   },
@@ -147,37 +147,37 @@
         "type": "Landing Page",
         "layout": "stacked_sections",
         "description": "High-conversion page with Hero, Features, Social Proof, and CTA.",
-        "components": ["Button (CTA)", "Card (Features)", "Accordion (FAQ)", "Avatar (Testimonials)"]
+        "components": ["Button", "Card", "Accordion", "Avatar"]
       },
       {
         "type": "Blog Listing",
         "layout": "grid_cards",
         "description": "Grid of articles with search and categories.",
-        "components": ["Input (Search)", "Badge (Category)", "Card (Article)", "Pagination"]
+        "components": ["Input", "Badge", "Card", "Pagination"]
       },
       {
         "type": "Blog Post",
         "layout": "centered_article",
-        "description": "Text-heavy reading layout with table of contents.",
-        "components": ["Typography (Prose)", "AspectRatio (Featured Image)", "Avatar (Author)", "Separator", "Button (Share)"]
+        "description": "Text-heavy reading layout.",
+        "components": ["AspectRatio", "Avatar", "Separator", "Button"]
       },
       {
         "type": "Pricing Page",
         "layout": "comparison_grid",
         "description": "Comparison of 3 tiers with features list.",
-        "components": ["Card (Tier)", "Button (Subscribe)", "Switch (Monthly/Yearly)", "CheckIcon (Feature List)"]
+        "components": ["Card", "Button", "Switch"]
       },
       {
         "type": "Contact Us",
         "layout": "split_map_form",
         "description": "Contact form alongside map and address info.",
-        "components": ["Form", "Textarea", "Input", "Button", "Card (Info)"]
+        "components": ["Form", "Textarea", "Input", "Button", "Card"]
       },
       {
         "type": "FAQ Page",
         "layout": "centered_accordion",
         "description": "List of common questions and answers.",
-        "components": ["Accordion", "Input (Search Questions)", "Button (Contact Support)"]
+        "components": ["Accordion", "Input", "Button"]
       }
     ]
   },
@@ -188,25 +188,25 @@
         "type": "Social Feed",
         "layout": "three_column_feed",
         "description": "Central infinite scroll feed with sidebars for trends and profile.",
-        "components": ["Card (Post)", "Avatar", "Button (Like/Comment)", "Textarea (New Post)", "Dialog (Image Preview)"]
+        "components": ["Card", "Avatar", "Button", "Textarea", "Dialog"]
       },
       {
         "type": "Chat Interface",
         "layout": "fixed_sidebar_chat",
         "description": "List of conversations on left, active chat window on right.",
-        "components": ["ScrollArea (Messages)", "Avatar", "Input (Message)", "Button (Send)", "Badge (Unread)"]
+        "components": ["ScrollArea", "Avatar", "Input", "Button", "Badge"]
       },
       {
         "type": "User Public Profile",
         "layout": "profile_header_grid",
         "description": "Large cover image, bio, and grid of user's posts/media.",
-        "components": ["Avatar", "Button (Follow)", "Tabs (Posts/Media)", "Card (Content)", "AspectRatio (Cover)"]
+        "components": ["Avatar", "Button", "Tabs", "Card", "AspectRatio"]
       },
       {
         "type": "Discussion Thread",
         "layout": "threaded_comments",
         "description": "A main post followed by nested comments.",
-        "components": ["Card (Main Post)", "Separator", "Avatar", "Textarea (Reply)", "Button (Upvote)"]
+        "components": ["Card", "Separator", "Avatar", "Textarea", "Button"]
       }
     ]
   },
@@ -217,91 +217,91 @@
         "type": "Admin - User Management",
         "layout": "datatable_full",
         "description": "Powerful table to search, filter, and ban/edit users.",
-        "components": ["DataTable", "DropdownMenu (Actions)", "Input (Search)", "Select (Filter)", "Pagination"]
+        "components": ["Table", "DropdownMenu", "Input", "Select", "Pagination"]
       },
       {
         "type": "Admin - Content CMS",
         "layout": "split_editor",
         "description": "Form to create/edit articles with rich text and metadata.",
-        "components": ["Input (Title)", "Textarea (Body)", "Select (Category)", "Button (Publish)", "Sheet (Preview)"]
+        "components": ["Input", "Textarea", "Select", "Button", "Sheet"]
       },
       {
         "type": "404 Not Found",
         "layout": "centered_minimal",
         "description": "Error page helping user get back on track.",
-        "components": ["Button (Home)", "Button (Back)", "Typography (Large 404)"]
+        "components": ["Button"]
       },
       {
         "type": "500 Server Error",
         "layout": "centered_minimal",
         "description": "Generic error page for crashes.",
-        "components": ["Button (Reload)", "Button (Contact Support)", "Accordion (Error Details - Dev Mode)"]
+        "components": ["Button", "Accordion"]
       },
       {
         "type": "Maintenance Mode",
         "layout": "centered_illustration",
         "description": "Temporary placeholder during updates.",
-        "components": ["Card", "Progress (Estimated Time)", "Input (Notify Me)"]
+        "components": ["Card", "Progress", "Input"]
       },
       {
         "type": "Onboarding Wizard",
         "layout": "centered_step",
         "description": "Multi-step setup guide for new users.",
-        "components": ["Progress (Steps)", "Card", "RadioGroup (Choices)", "Button (Next/Back)"]
+        "components": ["Progress", "Card", "RadioGroup", "Button"]
       },
       {
         "type": "Terms of Service / Privacy",
         "layout": "legal_doc",
         "description": "Long-form legal text.",
-        "components": ["ScrollArea", "Typography (Legal Text)", "Button (Accept)"]
+        "components": ["ScrollArea", "Button"]
       },
       {
         "type": "Search Results",
         "layout": "list_with_filters",
         "description": "Global search results across the application.",
-        "components": ["Input (Search Bar)", "Tabs (Result Types)", "Card (Result Item)", "Skeleton (Loading State)"]
+        "components": ["Input", "Tabs", "Card", "Skeleton"]
       },
       {
         "type": "Invoice Detail",
         "layout": "paper_document",
         "description": "Print-friendly view of a specific transaction.",
-        "components": ["Card", "Table (Line Items)", "Button (Print/Download PDF)", "Badge (Paid/Due)"]
+        "components": ["Card", "Table", "Button", "Badge"]
       },
       {
         "type": "API Documentation",
         "layout": "sidebar_docs",
         "description": "Technical documentation with code snippets.",
-        "components": ["Sidebar (Navigation)", "Typography (Docs)", "Card (Code Block)", "Button (Copy Code)"]
+        "components": ["Sidebar", "Card", "Button"]
       },
       {
         "type": "Job Board Listing",
         "layout": "list_cards",
         "description": "List of open positions with filters.",
-        "components": ["Card (Job)", "Badge (Remote/Onsite)", "Input (Search)", "Button (Apply)"]
+        "components": ["Card", "Badge", "Input", "Button"]
       },
       {
         "type": "Job Application",
         "layout": "centered_form",
         "description": "Form to submit resume and details.",
-        "components": ["Form", "Input", "Input (File Upload)", "Textarea (Cover Letter)", "Button (Submit)"]
+        "components": ["Form", "Input", "Textarea", "Button"]
       },
       {
         "type": "Event Detail",
         "layout": "hero_split",
         "description": "Event banner, details, and ticket purchasing.",
-        "components": ["AspectRatio (Banner)", "Card (Date/Location)", "Button (Buy Ticket)", "Avatar (Speakers)"]
+        "components": ["AspectRatio", "Card", "Button", "Avatar"]
       },
       {
         "type": "Waitlist Page",
         "layout": "centered_marketing",
         "description": "Viral loop page for pre-launch products.",
-        "components": ["Input (Email)", "Button (Join)", "Badge (Count of people ahead)", "Button (Share)"]
+        "components": ["Input", "Button", "Badge"]
       },
       {
         "type": "Design System / Style Guide",
         "layout": "grid_showcase",
         "description": "Internal page showing all available UI components.",
-        "components": ["Button (All variants)", "Card (Colors)", "Typography (Scale)", "Input (States)"]
+        "components": ["Button", "Card", "Input"]
       }
     ]
   }

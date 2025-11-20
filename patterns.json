@@ -304,5 +304,277 @@
         "components": ["Button", "Card", "Input"]
       }
     ]
+  },
+  {
+    "category": "Health & Fitness",
+    "pages": [
+      {
+        "type": "Workout Tracker",
+        "layout": "list_with_progress",
+        "description": "Log of sets, reps, and weights with progress visualization.",
+        "components": ["Card", "Input", "Button", "Progress", "Table"]
+      },
+      {
+        "type": "Daily Dashboard",
+        "layout": "dashboard_shell",
+        "description": "Overview of calories burned, steps, and water intake.",
+        "components": ["Chart", "Card", "Badge", "ScrollArea"]
+      },
+      {
+        "type": "Goal Setting",
+        "layout": "centered_form",
+        "description": "Form to set weight, muscle, or cardio targets.",
+        "components": ["Slider", "Input", "Button", "Form", "Select"]
+      },
+      {
+        "type": "Nutrition Log",
+        "layout": "split_screen_list",
+        "description": "Meal entry with macro breakdown charts.",
+        "components": ["Chart", "Table", "Button", "Dialog", "Input"]
+      }
+    ]
+  },
+  {
+    "category": "Education / LMS",
+    "pages": [
+      {
+        "type": "Course Dashboard",
+        "layout": "grid_cards",
+        "description": "Overview of enrolled courses and progress.",
+        "components": ["Card", "Progress", "Button", "Avatar"]
+      },
+      {
+        "type": "Lesson Player",
+        "layout": "sidebar_content_viewer",
+        "description": "Video or text content with a sidebar of course modules.",
+        "components": ["AspectRatio", "ScrollArea", "Accordion", "Button", "Breadcrumb"]
+      },
+      {
+        "type": "Quiz / Assessment",
+        "layout": "centered_card",
+        "description": "Multiple choice questions with timer and score.",
+        "components": ["RadioGroup", "Button", "Card", "Progress", "Label"]
+      },
+      {
+        "type": "Certificate View",
+        "layout": "centered_illustration",
+        "description": "Display of course completion certificate with download options.",
+        "components": ["AspectRatio", "Button", "Card", "DropdownMenu"]
+      }
+    ]
+  },
+  {
+    "category": "Travel & Hospitality",
+    "pages": [
+      {
+        "type": "Booking Search",
+        "layout": "hero_search_bar",
+        "description": "Date, location, and guest selection with hero background.",
+        "components": ["Calendar", "Popover", "Input", "Button", "Select"]
+      },
+      {
+        "type": "Property / Flight Details",
+        "layout": "grid_gallery_details",
+        "description": "Images, amenities list, and booking summary.",
+        "components": ["Carousel", "Card", "Badge", "Button", "Separator"]
+      },
+      {
+        "type": "Itinerary Timeline",
+        "layout": "vertical_timeline",
+        "description": "Schedule of events or flights in a timeline format.",
+        "components": ["ScrollArea", "Card", "Badge", "Avatar"]
+      },
+      {
+        "type": "Traveler Profile",
+        "layout": "sidebar_settings",
+        "description": "Passport info, preferences, and loyalty status.",
+        "components": ["Form", "Input", "Select", "Card", "Tabs"]
+      }
+    ]
+  },
+  {
+    "category": "Real Estate",
+    "pages": [
+      {
+        "type": "Property Listings",
+        "layout": "split_map_list",
+        "description": "Map view on one side, scrollable list of homes on the other.",
+        "components": ["ScrollArea", "Card", "Badge", "AspectRatio", "Input"]
+      },
+      {
+        "type": "Property Details",
+        "layout": "hero_gallery",
+        "description": "High-res photos, agent contact form, and specs.",
+        "components": ["Carousel", "Form", "Input", "Button", "Table"]
+      },
+      {
+        "type": "Mortgage Calculator",
+        "layout": "interactive_calculator",
+        "description": "Inputs for loan details with monthly payment breakdown.",
+        "components": ["Slider", "Input", "Chart", "Card", "Label"]
+      },
+      {
+        "type": "Agent Profile",
+        "layout": "centered_profile",
+        "description": "Agent bio, past sales, and reviews.",
+        "components": ["Avatar", "Card", "Button", "Separator", "Badge"]
+      }
+    ]
+  },
+  {
+    "category": "Finance / Fintech",
+    "pages": [
+      {
+        "type": "Wallet / Account Home",
+        "layout": "dashboard_shell",
+        "description": "Total balance, quick transfer actions, and recent transactions.",
+        "components": ["Card", "Button", "Table", "DropdownMenu"]
+      },
+      {
+        "type": "Transaction History",
+        "layout": "datatable_full",
+        "description": "Detailed list of past transactions with filters.",
+        "components": ["Table", "Calendar", "Popover", "Select", "Input"]
+      },
+      {
+        "type": "Send Money / Transfer",
+        "layout": "centered_card",
+        "description": "Form to send funds to a contact or bank account.",
+        "components": ["Input", "Avatar", "Button", "Select", "Dialog"]
+      },
+      {
+        "type": "Investment Portfolio",
+        "layout": "dashboard_shell",
+        "description": "Asset allocation charts and performance metrics.",
+        "components": ["Chart", "Tabs", "Card", "Table", "Badge"]
+      }
+    ]
+  },
+  {
+    "category": "Food & Dining",
+    "pages": [
+      {
+        "type": "Restaurant Listings",
+        "layout": "grid_with_filters",
+        "description": "Grid of restaurants with rating badges and cuisine filters.",
+        "components": ["Card", "Badge", "ScrollArea", "Button", "Input"]
+      },
+      {
+        "type": "Menu Page",
+        "layout": "sticky_header_list",
+        "description": "Categories of food items with add-to-cart buttons.",
+        "components": ["ScrollArea", "Tabs", "Card", "Button", "Dialog"]
+      },
+      {
+        "type": "Item Customization",
+        "layout": "modal_form",
+        "description": "Selecting sides, drinks, and special instructions.",
+        "components": ["Dialog", "Checkbox", "RadioGroup", "Button", "Input"]
+      },
+      {
+        "type": "Order Tracking",
+        "layout": "map_overlay",
+        "description": "Real-time status of delivery with driver details.",
+        "components": ["Card", "Progress", "Avatar", "Button"]
+      }
+    ]
+  },
+  {
+    "category": "Media & Streaming",
+    "pages": [
+      {
+        "type": "Web Player Home",
+        "layout": "sidebar_player",
+        "description": "Sidebar navigation, main content area, and persistent bottom player.",
+        "components": ["Sidebar", "Slider", "Button", "ScrollArea", "AspectRatio"]
+      },
+      {
+        "type": "Playlist View",
+        "layout": "table_with_header",
+        "description": "Large cover art header followed by song list.",
+        "components": ["Table", "Avatar", "Button", "DropdownMenu"]
+      },
+      {
+        "type": "Video Player",
+        "layout": "cinema_mode",
+        "description": "Dark mode layout focused on video content.",
+        "components": ["AspectRatio", "Slider", "Button", "Badge", "ScrollArea"]
+      },
+      {
+        "type": "Artist / Creator Profile",
+        "layout": "hero_banner_tabs",
+        "description": "Banner image, bio, and tabs for different content types.",
+        "components": ["AspectRatio", "Avatar", "Tabs", "Card", "Button"]
+      }
+    ]
+  },
+  {
+    "category": "News & Magazine",
+    "pages": [
+      {
+        "type": "News Feed",
+        "layout": "newspaper_grid",
+        "description": "Complex grid with featured articles and sidebars.",
+        "components": ["Card", "Badge", "Separator", "ScrollArea"]
+      },
+      {
+        "type": "Article Reader",
+        "layout": "centered_prose",
+        "description": "Distraction-free reading view with typography controls.",
+        "components": ["DropdownMenu", "Button", "Separator", "Avatar", "Card"]
+      },
+      {
+        "type": "Category Page",
+        "layout": "list_with_featured",
+        "description": "Specific topic feed (e.g., Tech, Politics) with highlights.",
+        "components": ["Tabs", "Card", "Pagination", "Badge"]
+      }
+    ]
+  },
+  {
+    "category": "IoT & Smart Home",
+    "pages": [
+      {
+        "type": "Device Dashboard",
+        "layout": "grid_tiles",
+        "description": "Grid of active devices with quick toggle switches.",
+        "components": ["Card", "Switch", "Badge", "Button"]
+      },
+      {
+        "type": "Device Details (Thermostat/Light)",
+        "layout": "centered_control",
+        "description": "Fine-grained controls for a specific device.",
+        "components": ["Slider", "Button", "Chart", "Tabs", "Card"]
+      },
+      {
+        "type": "Automation Rules",
+        "layout": "list_logic",
+        "description": "List of 'If this, then that' routines.",
+        "components": ["Card", "Switch", "Button", "DropdownMenu"]
+      }
+    ]
+  },
+  {
+    "category": "AI & Conversational",
+    "pages": [
+      {
+        "type": "Chat Interface",
+        "layout": "chat_split",
+        "description": "Sidebar history and main chat window with prompt inputs.",
+        "components": ["ScrollArea", "Input", "Button", "Avatar", "Card"]
+      },
+      {
+        "type": "Prompt Library",
+        "layout": "masonry_grid",
+        "description": "Collection of pre-made prompts to start conversations.",
+        "components": ["Card", "Badge", "Input", "Button"]
+      },
+      {
+        "type": "AI Settings",
+        "layout": "sidebar_settings",
+        "description": "Configuration for models, keys, and preferences.",
+        "components": ["Select", "Slider", "Switch", "Form", "Button"]
+      }
+    ]
   }
 ]
